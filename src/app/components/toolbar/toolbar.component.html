@@ -1,0 +1,89 @@
+<main>
+    <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+      <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        <span class="fs-5 fw-semibold">Filtros</span>
+      </a>
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+            Destinos
+          </button>
+          <div class="collapse show" id="home-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">America</a></li>
+              <li><a href="#" class="link-dark rounded">Asia</a></li>
+              <li><a href="#" class="link-dark rounded">Europa</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            Precios
+          </button>
+          <div class="collapse" id="dashboard-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">200 USD</a></li>
+              <li><a href="#" class="link-dark rounded">1000 USD</a></li>
+              <li><a href="#" class="link-dark rounded">10000 USD</a></li>
+              <li><a href="#" class="link-dark rounded">50000 USD</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+            Fechas
+          </button>
+          <div class="collapse" id="orders-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Mayo</a></li>
+              <li><a href="#" class="link-dark rounded">Junio</a></li>
+              <li><a href="#" class="link-dark rounded">Julio</a></li>
+              <li><a href="#" class="link-dark rounded">Agosto</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="border-top my-3"></li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+            Cuenta
+          </button>
+          <div class="collapse" id="account-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Mi perfíl</a></li>
+              <li><a href="#" class="link-dark rounded">Configuración</a></li>
+              <li><a href="#" class="link-dark rounded">Cerrar Sesión</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="b-example-divider"></div>
+
+    <main class="w-100 d-block">
+      <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Agencia de viajes TRVL</h1>
+              <p class="lead text-muted">Qué esperas para hacer tus viajes realidad</p>
+              <p>
+                <a href="#" class="btn btn-primary my-2 mx-2">Paquetes de viaje</a>
+                <a href="#" class="btn btn-secondary my-2 mx-2">Hoteles</a>
+              </p>
+            </div>
+          </div>
+        </section>
+  
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <app-cards></app-cards>
+                <app-cards></app-cards>
+                <app-cards></app-cards>
+            </div>
+          </div>
+      </div>
+  
+  </main>
+
+  </main>
